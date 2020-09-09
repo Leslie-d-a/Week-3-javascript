@@ -1,12 +1,12 @@
-// Leslie den Adel
-// Ik volg de opleiding Software developer op het DaVinci college in Dordrecht
+document.write("<h1>Leslie den Adel<br>Ik volg de opleiding Software developer op het DaVinci college in Dordrecht</h1>")
 
 var name;//maakt variabele aan
 var sirName;
 var age;
+const VRAAG = "U zal nu 3 vragen dienen in te vullen."
 
 //geeft een popup met de tekst: U zal nu 3 vragen dienen in te vullen
-alert("U zal nu 3 vragen dienen in te vullen.");
+alert(VRAAG);
 			
 //laat een prompt zien die zegt dat je je voornaam moet invullen
 name = prompt("Vul je voornaam in");
